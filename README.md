@@ -17,7 +17,7 @@ Python dependencies used:-
 7. NLTK 3.5
 
 Check it out on
-https://sentiment-analysis-web-app.herokuapp.com
+https://sentiment-analysis-devmalya.herokuapp.com/
 
 It might take few seconds to load please give it a try
 
@@ -34,14 +34,3 @@ It might take few seconds to load please give it a try
     <li>model_keras.py is another source code for model usign keras but we haven't used this in production because of its accuracy.</li>
 </ul>
 
-## Updates
-
-- Implemented some async js to make predictions faster and avoid reloading using jquery
-
-- The above mentioned feature is in beta version, you can check it our [here](https://sentiment-analysis-web-app.herokuapp.com/test)
-
-- Added session object to remember admin credentials for some time
-
-- Now you can upload a test file of reviews and then it will show you the graph of the predicted sentiments. Check it out [here](https://sentiment-analysis-web-app.herokuapp.com/upload)
-
-- Implemented custom scroll bar, now it looks kind of cool and now you can use it as a pwa, go to 'add to screen' and then it will be a standalone chrome app
